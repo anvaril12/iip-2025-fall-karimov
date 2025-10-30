@@ -1,4 +1,8 @@
-import org.w3c.dom.ls.LSOutput;
+package animals;
+
+import interfaces.CanFly;
+import interfaces.CanRun;
+import interfaces.CanSwim;
 
 public class Dolphin extends Animal implements CanRun, CanSwim, CanFly {
     public Dolphin(String name, int age) {

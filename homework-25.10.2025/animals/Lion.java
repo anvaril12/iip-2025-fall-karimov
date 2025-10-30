@@ -1,3 +1,9 @@
+package animals;
+
+import interfaces.CanFly;
+import interfaces.CanRun;
+import interfaces.CanSwim;
+
 public class Lion extends Animal implements CanRun, CanSwim, CanFly {
     public Lion(String name, int age) {
         super(name,age);
@@ -20,6 +26,6 @@ public class Lion extends Animal implements CanRun, CanSwim, CanFly {
 
     @Override
     public void swim() {
-        System.out.println(name + "неплохо плавает");
+        System.out.println(name + " неплохо плавает");
     }
 }

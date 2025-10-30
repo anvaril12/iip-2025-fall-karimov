@@ -1,4 +1,8 @@
-import org.w3c.dom.ls.LSOutput;
+package animals;
+
+import interfaces.CanFly;
+import interfaces.CanRun;
+import interfaces.CanSwim;
 
 public class Monkey extends Animal implements CanRun, CanFly, CanSwim {
     public Monkey(String name, int age) {

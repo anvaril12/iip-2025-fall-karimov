@@ -1,3 +1,5 @@
+package animals;
+
 public abstract class Animal {
     protected String name;
     protected int age;
@@ -19,5 +21,8 @@ public abstract class Animal {
 
     public int getAge() {
         return age;
+    }
+    public String getString() {
+        return "=== " + name + " (" + this.getClass().getSimpleName() + ")" + ", ему " + age + " лет"  + " ===";
     }
 }

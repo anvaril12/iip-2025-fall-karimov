@@ -1,4 +1,10 @@
-public class Cat extends Animal implements CanRun, CanFly, CanSwim{
+package animals;
+
+import interfaces.CanFly;
+import interfaces.CanRun;
+import interfaces.CanSwim;
+
+public class Cat extends Animal implements CanRun, CanFly, CanSwim {
     public Cat(String name, int age) {
         super(name, age);
     }

@@ -1,4 +1,10 @@
-public class Penguin extends Animal implements CanRun,CanFly,CanSwim {
+package animals;
+
+import interfaces.CanFly;
+import interfaces.CanRun;
+import interfaces.CanSwim;
+
+public class Penguin extends Animal implements CanRun, CanFly, CanSwim {
     public Penguin(String name, int age) {
         super(name,age);
     }
