@@ -1,0 +1,28 @@
+package animals;
+
+public abstract class Animal {
+    protected String name;
+    protected int age;
+
+    public Animal(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public abstract void makeSound();
+
+    public void sleep() {
+        System.out.println(name + " спит");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+    public String getString() {
+        return "=== " + name + " (" + this.getClass().getSimpleName() + ")" + ", ему " + age + " лет"  + " ===";
+    }
+}
