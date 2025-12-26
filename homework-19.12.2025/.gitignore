@@ -1,0 +1,18 @@
+# System
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Java
+*.class
+bin/
+out/
+target/
+build/
+
+# Logs
+*.log
+*.tmp
+../.DS_Store
