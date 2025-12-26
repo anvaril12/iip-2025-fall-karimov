@@ -1,12 +1,18 @@
-# Java compiled files
+# System
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Java
 *.class
 bin/
 out/
 target/
+build/
 
-# IDE files
-.idea/
-*.iml
-
-# System files
-.DS_Store
+# Logs
+*.log
+*.tmp
+../.DS_Store
