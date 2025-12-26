@@ -105,7 +105,7 @@ public class AvoidRedSquaresGameLogic implements GameLogic {
             pixels[playerY][playerX] = COLOR_PLAYER;
         }
 
-        if (random.nextInt(100) < 5) { // 5% шанс каждый кадр
+        if (random.nextInt(100) < 5) {
             addEnemy();
         }
     }
