@@ -1,0 +1,12 @@
+# Java compiled files
+*.class
+bin/
+out/
+target/
+
+# IDE files
+.idea/
+*.iml
+
+# System files
+.DS_Store
